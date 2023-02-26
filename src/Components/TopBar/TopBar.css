@@ -1,0 +1,71 @@
+.TopBar {
+  border: 1px solid #d4d5d8;
+  border-radius: 10px;
+  margin: 8px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TopBar-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.TopBar-arrow-icon * {
+  font-size: 15px !important;
+}
+
+.TopBar-Bitcoin {
+  background-color: #ffc700;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  margin: 5px;
+}
+
+.TopBar-Bitcoin-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TopBar-btc {
+  color: #565656;
+  cursor: pointer;
+}
+
+.TopBar-active {
+  color: #2cb7a5;
+}
+
+.TopBar-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  gap: 40px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 20px;
+  margin-right: 100px;
+}
+
+.TopBar-center-title {
+  color: #707580;
+}
+
+.TopBar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: bold;
+  padding-right: 80px;
+}

@@ -1,0 +1,179 @@
+.Trading {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.Trading-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  padding-left: 30px;
+  color: #707580;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 25px;
+}
+
+.Trading-title :nth-child(1) {
+  color: #2cb7a5;
+  border-bottom: 2px solid #2cb7a5;
+}
+
+.Trading-top-content {
+  border: 1px solid #d4d5d8;
+  border-radius: 10px;
+  padding: 10px 90px;
+}
+
+.Trading-top-content-button {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.Trading-top-content-button button {
+  cursor: pointer;
+}
+
+.Trading-top-content-button * {
+  width: 115px;
+  border-radius: 5px;
+  border: none;
+  color: #707580;
+}
+
+.Trading-top-content-button button:nth-child(1) {
+  background-color: #e6f6f4;
+  color: #2cb7a5 !important;
+}
+
+.Trading-top-content-advanced {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+.Trading-top-content-advanced span {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.Trading-top-content-advanced span:nth-child(1) {
+  padding-left: 20px;
+}
+
+.Trading-top-content-advanced span:nth-child(2) {
+  border-radius: 5px;
+  background-color: #e6f6f4;
+  color: #2cb7a5;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 2px 5px;
+}
+
+.Trading-top-content-advanced span:nth-child(3),
+.Trading-top-content-advanced span:nth-child(4) {
+  color: #707580;
+  background-color: #ebebec;
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Trading-top-content-advanced-icon * {
+  font-size: 15px !important;
+}
+
+.Trading-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.Trading-content-left,
+.Trading-content-right {
+  width: 100%;
+}
+
+.Trading-content-item {
+  background-color: #ebebec;
+  padding: 10px 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  position: relative;
+}
+
+.Trading-content-item-text :nth-child(2) {
+  position: absolute;
+  left: 75px;
+  z-index: 2;
+}
+.Trading-content-item span:nth-child(1) {
+  color: #707580;
+}
+
+.Trading-content-login {
+  background-color: #ebebec;
+  padding: 10px 12px;
+  border-radius: 5px;
+  margin-top: 35px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.Trading-content-login span:nth-child(1),
+.Trading-content-login span:nth-child(3) {
+  color: #2cb7a5;
+  cursor: pointer;
+}
+
+.Trading-content-range {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.Trading-content-circle-left,
+.Trading-content-circle-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 30;
+  position: absolute;
+  width: 100%;
+  bottom: -8px;
+}
+
+.Trading-content-circle-left span:nth-child(1) * {
+  color: #2cb7a5;
+}
+
+.Trading-content-circle-right span:nth-child(1) * {
+  color: #ea2531;
+}
+
+.Trading-content-circle-left span *,
+.Trading-content-circle-right span * {
+  cursor: pointer;
+  font-size: 13px;
+  color: #707580;
+  background-color: #fff;
+}
+
+.Trading-content-border {
+  border: 1px solid #ebebec;
+  z-index: 20px;
+  margin: 20px 0;
+}

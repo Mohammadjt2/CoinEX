@@ -1,0 +1,155 @@
+.SideBarRight {
+  border: 1px solid #d4d5d8;
+  border-radius: 10px;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.SideBarRight-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.SideBarRight-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #707580;
+  padding: 0 15px;
+  font-weight: 600;
+}
+
+.SideBarRight-title div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.SideBarRight-title-icon * {
+  font-size: 10px !important;
+}
+
+.SideBarRight-market {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.SideBarRight-market-text {
+  color: black;
+}
+
+.SideBarRight-data-market-star {
+  color: #e1e2e5;
+}
+
+.SideBarRight-data-market-star * {
+  font-size: 19.2px !important;
+}
+
+.SideBarRight-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+}
+
+.SideBarRight-change {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end !important;
+}
+
+.SideBarRight-data-title {
+  margin: 15px 0;
+  color: #707580;
+}
+
+.SideBarRight-ascending {
+  color: #2cb7a5;
+  padding: 2px;
+}
+
+.SideBarRight-descending {
+  color: #ea2531;
+  padding: 2px;
+}
+
+.SideBarRight-amouunt {
+  color: black;
+  padding: 2px;
+}
+
+.SideBarRight-title {
+  padding: 0 15px;
+  color: black;
+}
+
+.SideBarRight-range-success {
+  color: #2cb7a5;
+  background-color: #ceeee9;
+  font-weight: bold;
+  border-radius: 7px 0 0 7px;
+  padding: 2px 10px;
+  width: 25.84%;
+}
+
+.SideBarRight-range-danger {
+  color: #ea2531;
+  background-color: #fad2d5;
+  font-weight: bold;
+  border-radius: 0 7px 7px 0;
+  padding: 2px 10px;
+  width: 74.16%;
+  text-align: right;
+}
+
+.SideBarRight-total {
+  padding: 2px;
+  position: relative;
+  color: black;
+}
+
+.SideBarRight-total-bg-descending {
+  height: 18px;
+  background-color: #fce9ea;
+  border-radius: 7px 0 0 7px;
+  position: absolute;
+  z-index: -1;
+  right: 37px;
+}
+
+.SideBarRight-total-bg-ascending {
+  height: 18px;
+  background-color: #e6f6f4;
+  border-radius: 7px 0 0 7px;
+  position: absolute;
+  z-index: -1;
+  right: 37px;
+}
+
+.SideBarRight-total-number {
+  margin: 2px 0;
+}
+
+.SideBarRight-center {
+  border: 2px solid #d4d5d8;
+  margin: 14px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  color: #707580;
+  font-weight: 600;
+}
+
+.SideBarRight-center-ascending {
+  color: #2cb7a5;
+  font-weight: 700;
+}

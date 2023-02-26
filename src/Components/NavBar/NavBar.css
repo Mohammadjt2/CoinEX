@@ -1,0 +1,74 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  font-weight: 500;
+}
+
+.NavBar-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.NavBar-menu-ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.NavBar-menu li {
+  cursor: pointer;
+}
+
+.NavBar-menu-ul-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar-signUp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.NavBar-button {
+  display: flex;
+  gap: 20px;
+}
+
+.NavBar-button-logIn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.NavBar-button-signUp {
+  background-color: #0ead98;
+  color: #fefefe;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.NavBar-signUp-icon {
+  display: flex;
+  gap: 15px;
+  color: #3a3d42;
+}
+
+.NavBar-signUp-language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar-arrow-icon * {
+  font-size: 15px !important;
+}

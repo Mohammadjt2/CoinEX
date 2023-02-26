@@ -1,0 +1,125 @@
+.SideBarLeft {
+  border: 1px solid #d4d5d8;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-bottom: 5px;
+  margin: 7px 0;
+}
+
+.SideBarLeft-search {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px;
+  color: #707580;
+}
+
+.SideBarLeft-search input {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.SideBarLeft-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+  color: #707580;
+}
+
+.SideBarLeft-menu span {
+  cursor: pointer;
+}
+
+.SideBarLeft-menu-active {
+  background-color: #e6f6f4;
+  color: #44bfaf;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.SideBarLeft-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #707580;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.SideBarLeft-title div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.SideBarLeft-title-icon * {
+  font-size: 10px !important;
+}
+
+.SideBarLeft-market {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.SideBarLeft-market-text {
+  color: black;
+}
+
+.SideBarLeft-data-market-star {
+  color: #e1e2e5;
+}
+
+.SideBarLeft-data-market-star * {
+  font-size: 21.5px !important;
+}
+
+.SideBarLeft-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+}
+
+.SideBarLeft-change {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end !important;
+}
+
+.SideBarLeft-data-title {
+  margin: 15px 0;
+  color: #707580;
+}
+
+.SideBarLeft-ascending {
+  color: #2cb7a5;
+  padding: 2px;
+}
+
+.SideBarLeft-descending {
+  color: #ea2531;
+  padding: 2px;
+}
+
+.SideBarLeft-amouunt {
+  color: black;
+  padding: 2px;
+}
+
+.SideBarLeft-time {
+  padding: 2px;
+}
+
+.SideBarLeft-title {
+  padding: 0 15px;
+  color: black;
+}

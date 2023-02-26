@@ -1,0 +1,76 @@
+.Chart {
+  border: 1px solid #d4d5d8;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.Chart-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.Chart-top-time {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  color: #d5d6d9;
+}
+
+.Chart-top-time-icon * {
+  font-size: 17px !important;
+  color: #565656;
+  cursor: pointer;
+}
+
+.Chart-top-original {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-weight: 600;
+  color: #878787;
+}
+
+.Chart-top-original span {
+  cursor: pointer;
+}
+
+.Chart-top-original span:nth-child(2) {
+  background-color: #d6e0e9;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.Chart-top-original span:nth-child(4) * {
+  font-size: 17px !important;
+}
+
+.Chart-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.Chart-content-icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 10px;
+  color: #98b0c0;
+}
+
+.Chart-content-icon span * {
+  cursor: pointer;
+}
+
+.Chart-content-icon span:nth-child(1) {
+  background-color: #ebeff1;
+  border-radius: 5px;
+}
+
+.Chart-line-img {
+  width: 100%;
+  height: 54vh;
+}
